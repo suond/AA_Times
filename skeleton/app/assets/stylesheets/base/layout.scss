@@ -46,7 +46,34 @@ hr {
 	margin: 0;
 }
 
+.hr-bottom{
+	height: 3px;
+	margin-top: 20px;
+
+}
+
 .hr-top {
 	height: 2px;
-	margin-bottom: 1px;
+	margin: 10px auto 1px auto;
+	width: 50%;
+}
+
+h1:hover, h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.thumbnail{
+	height: 100px;
+	
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+
+	}
+}
+
+.pointer {
+	cursor: pointer;
 }

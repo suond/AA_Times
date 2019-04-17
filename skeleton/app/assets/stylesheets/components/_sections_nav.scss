@@ -22,3 +22,9 @@
     text-transform: uppercase;
     font-size: 12px;
 }
+
+@media all and (max-width: 1000px) {
+    .sections-nav {
+        display: none;
+    }
+}

@@ -41,3 +41,12 @@
 .right-nav i {
     font-size: 16px;
 }
+
+@media all and (max-width: 1000px) {
+    .sub-btn, .login-btn {
+        display: none;
+    }
+    .left-nav {
+        margin: 0;
+    }
+}
